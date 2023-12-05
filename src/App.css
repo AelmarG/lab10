@@ -1,38 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  background-color: aquamarine;
+  color: #ffffff;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: #FF7FAA; /* Pink */
+  text-align: center; 
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #3498db;
+  padding: 40px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.section-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.step-container {
+  width: 250px;
+  height: 250px;
+  color: black;
+  background-color: #D3D3D3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
+
+h2, h3 {
+  color: #3498db;
+  text-align: center; /* Center headers */
+}
+
+ol {
+  text-align: center;
+  padding-left: 0; /* Remove default padding for the list */
+}
+
+ol li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+li, p {
+  text-align: center; /* Center list items and paragraphs */
+  margin-bottom: 10px;
+}
+
+a {
+  color: #04141a !important;
+}
+
