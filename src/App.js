@@ -64,10 +64,6 @@ function App() {
                 Enter the command: <code>cd projName</code> to navigate to the directory of your project!
               </p>
             </div>
-            
-            <div>
-				Now you should be able to develop your project using React.js! :)
-			</div>
 			
           </div>
           
